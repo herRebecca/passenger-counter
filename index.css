@@ -1,0 +1,35 @@
+.container{
+    margin: auto;
+    max-width :80px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 2px solid red;
+    
+}
+body{
+    background-image: url(images-6.jpeg);
+    background-size:cover;
+    font-family: -apple-system;
+     font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+button{
+    border:none;
+    border-radius: 60px;
+    background-color: green;
+    padding-left: 12px;
+    padding-right: 14px;
+    width: 120px;
+    cursor:pointer;
+   
+}
+button:hover{
+    background-color:red;
+   transition: 4sec;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+}
